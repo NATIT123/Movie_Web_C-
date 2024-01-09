@@ -1,0 +1,76 @@
+﻿@model ViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>CHỈNH SỬA</h1>
+
+<h4>THÔNG TIN PHIM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Movie.ID" name="ID" />
+            <input asp-for="Movie.updatedDate" name="updatedDate" type="hidden" />
+            <input asp-for="Movie.numOfLikes" name="numOfLikes" type="hidden" />
+            <input asp-for="Movie.numOfViews" name="numOfViews" type="hidden" />
+            <input asp-for="Movie.Rating" class="form-control" name="Rating" value="10" type="hidden" />
+            <div class="form-group">
+                <label asp-for="Movie.Name" class="control-label"></label>
+                <input asp-for="Movie.Name" class="form-control" name="Name" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Movie.Description" class="control-label"></label>
+                <input asp-for="Movie.Description" class="form-control" name="Description" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Description" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Movie.Status" class="control-label"></label>
+                <input asp-for="Movie.Status" class="form-control" name="Status" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Status" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Movie.Duration" class="control-label"></label>
+                <input asp-for="Movie.Duration" class="form-control" name="Duration" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Duration" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Movie.realeasedYear" class="control-label"></label>
+                <input asp-for="Movie.realeasedYear" class="form-control" name="realeasedYear" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="realeasedYear" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Movie.Type" class="control-label"></label>
+                <select asp-for="Movie.Type" name="Type">
+                    <option value="Phim lẻ" selected="selected">Phim lẻ</option>
+                    <option value="Phim bộ">Phim bộ</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Movie.imgSrc" class="control-label"></label>
+                <input asp-for="Movie.imgSrc" class="form-control" name="imgSrc" type="file"/>
+                <span class="text-danger field-validation-valid" data-valmsg-for="imgSrc" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Movie.NationID" class="control-label"></label>
+                <select asp-for="Movie.NationID" class="selector" name="NationID">
+                    @foreach (var item in Model.Nations)
+                    {
+                        <option value="@item.ID">@item.Name</option>
+                    }
+                </select>
+                <span class="text-danger field-validation-valid" data-valmsg-for="NationID" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Quay về danh sách</a>
+</div>

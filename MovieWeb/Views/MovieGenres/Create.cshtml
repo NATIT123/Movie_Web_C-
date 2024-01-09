@@ -1,0 +1,43 @@
+﻿@model ViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>THÊM</h1>
+
+<h4>LIÊN KẾT PHIM VÀ THỂ LOẠI</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MGVM.MovieID" class="control-label"></label>
+                <select asp-for="MGVM.MovieID" class="form-control selector" name="MovieID">
+                    @foreach(var item in Model.Movies)
+                    {
+                        <option value="@item.ID">@item.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="MGVM.GenreID" class="control-label"></label>
+                <select asp-for="MGVM.GenreID" class="form-control selector" multiple="multiple" name="GenreID">
+                    @foreach (var item in Model.Genres)
+                    {
+                        <option value="@item.ID">@item.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Thêm" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Quay về danh sách</a>
+</div>
+

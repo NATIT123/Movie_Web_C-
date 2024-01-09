@@ -1,0 +1,49 @@
+﻿@model ViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Episode</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Episode.ID" name="ID" />
+            <div class="form-group">
+                <label asp-for="Episode.Name" class="control-label"></label>
+                <input asp-for="Episode.Name" class="form-control" name="Name" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Episode.videoSrc" class="control-label"></label>
+                <input asp-for="Episode.videoSrc" class="form-control" name="videoSrc" type="file" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="videoSrc" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Episode.MovieID" class="control-label"></label>
+                <select asp-for="Episode.MovieID" class="selector" name="MovieID">
+                    @foreach (var item in Model.Movies)
+                    {
+                        <option value="@item.ID">@item.Name</option>
+                    }
+                </select>
+                <span class="text-danger field-validation-valid" data-valmsg-for="MovieID" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Quay về danh sách</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,74 @@
+body{
+    background-image: url("../img/Background.png");
+}
+
+hr {
+    background-color: white;
+    height: 2px;
+}
+
+.formCtn{
+    background-color: rgb(47, 45, 45);
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.formCtn h1{
+    text-align: center;
+    color: white;
+}
+
+.formCtn a{
+    text-decoration: none;
+    color: blue;
+}
+
+label, .noAcc{
+    color: white;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+#submit{
+    background-color: red;
+    width: 100%;
+}
+
+.haveAcc {
+    color: white;
+}
+
+.loginLink {
+    margin-left: 100px;
+}
+
+
+.formCtn .lgLink{
+    color: white;
+}
+
+.formCtn #submit:hover,.formCtn a:hover,.formCtn .form-group:hover{
+    opacity: 0.8;
+}
+
+.fgpassLink{
+    margin-left: 70px;
+}
+
+.regisLink{
+    margin-left: 90px;
+}
+
+.pad{
+    padding-top: 10px;
+}

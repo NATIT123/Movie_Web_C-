@@ -1,0 +1,39 @@
+﻿@model ViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>DANH SÁCH LIÊN KẾT PHIM VÀ THỂ LOẠI</h1>
+
+<p>
+    <a asp-action="Create">THÊM</a>
+</p>
+<table id="example" class="display cell-border order-column" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                Phim
+            </th>
+            <th>
+                Thể loại
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.MGs) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Movie.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { movieid=item.MovieID, genreid=item.GenreID })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

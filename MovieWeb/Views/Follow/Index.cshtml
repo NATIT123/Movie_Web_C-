@@ -1,0 +1,67 @@
+﻿@model ViewModel
+@using X.PagedList.Mvc.Core
+@using X.PagedList
+@{
+    ViewData["Title"] = "Yêu thích";
+}
+@section styles {
+    <link href="@Url.Content("~/css/Home.css")" rel="stylesheet" />
+}
+<!-- HERO SLIDER -->
+@{
+    Html.RenderPartial("HeroSection");
+}
+
+<!-- SLIDER -->
+@{
+    Html.RenderPartial("Slider");
+}
+
+<!-- MOVIE SECTION -->
+<div class="movie-frame">
+    <div class="movWrapper">
+        <div class="tag">PHIM YÊU THÍCH</div>
+        <div class="container-fluid movie-container">
+            <div class="row">
+                @if (Model.Follows == null || Model.Follows.Count() == 0)
+                {
+                    <h1 class="noData">Bạn chưa có phim yêu thích nào!</h1>
+                }else{
+                    @foreach (var movie in Model.Follows)
+                    {
+                        <div class="col-6 col-lg-3 px-0 d-flex justify-content-center">
+                            <div class="mov">
+                                <div class="episode">@movie.Movie.Status</div>
+                                <img src=@movie.Movie.imgSrc alt="">
+                                <div class="movie_info">
+                                    <div class="title">@movie.Movie.Name</div>
+                                    <div class="icon_info">
+                                        <div class="score">
+                                            <i class="bx bxs-star"></i>
+                                            <span>@movie.Movie.Rating</span>
+                                        </div>
+                                        <div class="time">
+                                            <i class="bx bxs-time"></i>
+                                            <span>@movie.Movie.Duration</span>
+                                        </div>
+                                        <div class="category"><span>@movie.Movie.Type</span></div>
+                                        <div class="age"><span>13+</span></div>
+                                    </div>
+                                    <div class="description">@movie.Movie.Description</div>
+                                    <div class="btn1">
+                                        <a asp-controller="Detail" asp-action="Index" asp-route-id="@movie.Movie.ID" class="btnct btn-hover">
+                                            <i class="bx bxs-right-arrow"></i>
+                                            <span>Watch now</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>@Html.PagedListPager((IPagedList)Model.Theme, x=>Url.Action("Genre",new{page=x}))</p>

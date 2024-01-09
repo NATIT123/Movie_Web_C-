@@ -1,0 +1,245 @@
+﻿@model ViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TTHMov</title>
+    <link rel="icon" href="https://localhost:7257/img/Logo.png" type="Image/x-icon">
+
+    @* CSS *@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="~/css/Header.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Footer.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Pagination.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/v/dt/dt-1.13.8/r-2.5.0/sc-2.3.0/datatables.min.css" rel="stylesheet">
+    @RenderSection("styles", false)
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark py-0">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-auto" asp-controller="Home" asp-action="Index" title="TTHMov"><img src="https://localhost:7257/img/Logo.png" alt="logo" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 custom">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="Index">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" role="button" data-bs-toggle="dropdown" aria-expanded="false">THỂ LOẠI</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="container test">
+                                <div class="row">
+                                    @if (Model.Nations.Any())
+                                    {
+                                        @foreach (var genre in Model.Genres)
+                                        {
+                                            <div class="col-6 col-xl-4">
+                                                <li><a class="dropdown-item" asp-controller="Theme" asp-action="Genre" asp-route-id="@genre.ID">@genre.Name</a></li>
+                                            </div>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <div>Không có dữ liệu</div>
+                                    }
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">QUỐC GIA</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="container test">
+                                <div class="row">
+                                    @if (Model.Nations.Any())
+                                    {
+                                        @foreach (var nation in Model.Nations)
+                                        {
+                                            <div class="col-6 col-xl-4">
+                                                 <li><a class="dropdown-item" asp-controller="Theme" asp-action="Nation" asp-route-id="@nation.ID">@nation.Name</a></li>
+                                            </div>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <div>Không có dữ liệu</div>
+                                    }
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" asp-controller="Theme" asp-action="Movie">PHIM LẺ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" asp-controller="Theme" asp-action="Series">PHIM BỘ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" asp-controller="Theme" asp-action="RecentlyUpdated">MỚI CẬP NHẬT</a>
+                    </li>
+                    <form class="d-flex" role="search" autocomplete="on" asp-controller="Theme" asp-action="Search" method="get">
+                        <input class="form-control" id="search" type="search" placeholder="Tìm kiếm tên phim" aria-label="Search" name="searchStr">
+                        <button class="btn btn-success" type="submit"><i class='bx bx-search-alt-2'></i></button>
+                    </form>
+        
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-lg-1 p-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://localhost:7257/img/Profile.jpg" alt="user" class="user">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" id="profile" aria-labelledby="navbarDropdown">
+                            <li>
+                                <div class="user-info">
+                                    <img src="https://localhost:7257/img/Profile.jpg" alt="user" class="user">
+                                <h2>@User.Claims.FirstOrDefault(x => x.Type == "Name")?.Value</h2>
+                                </div>
+                                <hr>
+                            </li>
+                                    @if (User.Claims.FirstOrDefault(x => x.Type == "Role")?.Value == "Quản lý" || User.Claims.FirstOrDefault(x => x.Type == "Role")?.Value == "Chủ sở hữu")
+                                {
+                                <li class="nav-item dropend">
+                                    <a class="dropdown-toggle dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bx bxs-cog picon"></i><span class="di">Quản lý thông tin</span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" asp-controller="Users" asp-action="Index"><span>Tài khoản</span></a></li>
+                                        <li><a class="dropdown-item" asp-controller="Movies" asp-action="Index"><span>Phim</span></a></li>
+                                        <li><a class="dropdown-item" asp-controller="Genres" asp-action="Index"><span>Thể loại</span></a></li>
+                                        <li><a class="dropdown-item" asp-controller="Nations" asp-action="Index"><span>Quốc gia</span></a></li>
+                                    </ul>
+                                </li>
+                                }
+                            <li>
+                                <a class="dropdown-item" asp-controller="Profile" asp-action="Index"><i class="bx bxs-user picon"></i><span>Thông tin tài khoản</span></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Follow" asp-action="Index"><i class="bx bxs-heart picon"></i><span>Theo dõi</span></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-controller="Authentication" asp-action="Logout"><i class="bx bx-log-out picon"></i><span>Đăng xuất</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    }
+                    else
+                    {
+                        <a class="btnct btn-hover" id="login" asp-controller="Authentication" asp-action="Login">
+                            <i class="bx bx-log-in piconLI"></i>
+                            <span>ĐĂNG NHẬP</span>
+                        </a>
+                    }
+                </ul>
+            </div> 
+        </div>
+    </nav>
+
+</header>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <footer class="border-top footer text-muted">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="" class="logo">
+                            <img src="https://localhost:7257/img/Logo.png" alt="logo" class="logo" asp-controller="Home" asp-action="Index">
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum. Quidem officia repellat, nisi beatae consequuntur, officiis placeat quia tempora totam, voluptatibus dignissimos illo ipsam minima laboriosam odio quis at.</p>
+                        <a class="socail-list">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a class="socail-list">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a class="socail-list">
+                            <i class="bx bxl-instagram "></i>
+                        </a>
+                        <a class="socail-list">
+                            <i class="bx bxl-telegram "></i>
+                        </a>
+                        <a class="socail-list">
+                            <i class="bx bxl-youtube "></i>
+                        </a>
+                        <a class="socail-list">
+                            <i class="bx bxl-skype "></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <b>TTHMov</b>
+                        <ul class="footer-menu">
+                            <li><a>About us</a></li>
+                            <li><a>My profile</a></li>
+                            <li><a>Pricing plans</a></li>
+                            <li><a>Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <b>Browse</b>
+                        <ul class="footer-menu">
+                            <li><a>About us</a></li>
+                            <li><a>My profile</a></li>
+                            <li><a>Pricing plans</a></li>
+                            <li><a>Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <b>Help</b>
+                        <ul class="footer-menu">
+                            <li><a>About us</a></li>
+                            <li><a>My profile</a></li>
+                            <li><a>Pricing plans</a></li>
+                            <li><a>Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <b>Download app</b>
+                        <ul class="footer-menu">
+                            <li>
+                                <a>
+                                    <img src="https://localhost:7257/img/App/AppStore.png" alt="" srcset="">
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <img src="https://localhost:7257/img/App/GooglePlay.png" alt="" srcset="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">2023 TTHMov</div>
+        </div>
+    </footer>
+
+    @* SCRIPTS *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/v/dt/dt-1.13.8/r-2.5.0/sc-2.3.0/datatables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="~/js/Home.js" asp-append-version="true"></script>
+    <script src="~/js/Profile.js" asp-append-version="true"></script>
+    <script src="~/js/Selector.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

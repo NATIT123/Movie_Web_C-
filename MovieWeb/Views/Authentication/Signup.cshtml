@@ -1,0 +1,44 @@
+﻿@model ViewModel
+@{
+    ViewData["Title"] = "Đăng ký";
+}
+@section styles {
+    <link href="@Url.Content("~/css/Authenticate.css")" rel="stylesheet" />
+}
+
+<div class="container d-flex align-items-center justify-content-center">
+    <form asp-controller="Authentication" asp-action="Signup" method="post" class="formCtn">
+        <h1>Đăng ký</h1>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group pad">
+            <label asp-for="Signup.Username" class="control-label"></label>
+            <input asp-for="Signup.Username" class="form-control" autocomplete="on" name="Username"/>
+            <span class="text-danger field-validation-valid" data-valmsg-for="Username" data-valmsg-replace="true"></span>
+        </div>
+        <div class="form-group pad">
+            <label asp-for="Signup.Email" class="control-label"></label>
+            <input asp-for="Signup.Email" class="form-control" autocomplete="on" name="Email" />
+            <span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+        </div>
+        <div class="form-group pad">
+            <label asp-for="Signup.Password" class="control-label"></label>
+            <input asp-for="Signup.Password" class="form-control" name="Password" />
+            <span class="text-danger field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+        </div>
+        <div class="form-group pad">
+            <label asp-for="Signup.confirmPassword" class="control-label"></label>
+            <input asp-for="Signup.confirmPassword" class="form-control" name="confirmPassword" />
+            <span class="text-danger field-validation-valid" data-valmsg-for="confirmPassword" data-valmsg-replace="true"></span>
+        </div>
+        <div class="haveAcc pad">Đã có tài khoản?<a asp-controller="Authentication" asp-action="Login" class="loginLink">Nhấn để đăng nhập</a></div>
+        @if (TempData["Message"] != null)
+        {
+            <span class="text-danger">@TempData["Message"]</span>
+        }
+        <div class="form-group pad">
+            <input type="submit" id="submit" value="Đăng ký" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+

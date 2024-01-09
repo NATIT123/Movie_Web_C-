@@ -1,0 +1,581 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MovieWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MovieWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\css\\Authenticate.css",
+      "PackagePath": "staticwebassets\\css\\Authenticate.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\css\\Detail.css",
+      "PackagePath": "staticwebassets\\css\\Detail.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\css\\Footer.css",
+      "PackagePath": "staticwebassets\\css\\Footer.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\css\\Header.css",
+      "PackagePath": "staticwebassets\\css\\Header.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\css\\Pagination.css",
+      "PackagePath": "staticwebassets\\css\\Pagination.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\css\\Profile.css",
+      "PackagePath": "staticwebassets\\css\\Profile.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\css\\Watch.css",
+      "PackagePath": "staticwebassets\\css\\Watch.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\App\\AppStore.png",
+      "PackagePath": "staticwebassets\\img\\App\\AppStore.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\App\\GooglePlay.png",
+      "PackagePath": "staticwebassets\\img\\App\\GooglePlay.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Background.png",
+      "PackagePath": "staticwebassets\\img\\Background.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Banner.jpg",
+      "PackagePath": "staticwebassets\\img\\Banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Logo.png",
+      "PackagePath": "staticwebassets\\img\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\1917.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\1917.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\AHolyFamily.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\AHolyFamily.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\ASilentVoice.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\ASilentVoice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\AllOfUsAreDead.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\AllOfUsAreDead.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Ant-Man.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Ant-Man.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\AvengersEndgame.webp",
+      "PackagePath": "staticwebassets\\img\\Movies\\AvengersEndgame.webp"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\AvengersInfinityWar.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\AvengersInfinityWar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\BatmanVsSupermanDawnOfJustice.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\BatmanVsSupermanDawnOfJustice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\BlackPanther.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\BlackPanther.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\BlueLock.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\BlueLock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\BoGia.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\BoGia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\DemonSlayer-MugenTrain.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\DemonSlayer-MugenTrain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\DemonSlayerKimetsuNoYaiba.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\DemonSlayerKimetsuNoYaiba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\DinhMenh.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\DinhMenh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\FairyTail.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\FairyTail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Gaga.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Gaga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\GameOfThrones.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\GameOfThrones.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Gintama.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Gintama.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\HaiPhuong.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\HaiPhuong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\HotelTransylvania.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\HotelTransylvania.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\HotelTransylvania2.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\HotelTransylvania2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\HotelTransylvaniaSummerVacation.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\HotelTransylvaniaSummerVacation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\HotelTransylvaniaTransformania.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\HotelTransylvaniaTransformania.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Interstellar.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Interstellar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\John-wick.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\John-wick.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\JujutsuKaisen.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\JujutsuKaisen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\JujutsuKaisen0.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\JujutsuKaisen0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\JusticeLeague.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\JusticeLeague.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\KungFuHustle.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\KungFuHustle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\LOTR.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\LOTR.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\MoiThuKhongPhai.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\MoiThuKhongPhai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Muoi.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Muoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\NarutoShippuden.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\NarutoShippuden.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\NgocCotDao.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\NgocCotDao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\NhaBaNu.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\NhaBaNu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Nobita'sSkyUtopia.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Nobita'sSkyUtopia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\OnePiece.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\OnePiece.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Parasite.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Parasite.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\PussInBootsTheLastWish.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\PussInBootsTheLastWish.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Rosemary'sBaby.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Rosemary'sBaby.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\ShaolinSoccer.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\ShaolinSoccer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Spider-ManHomecoming.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Spider-ManHomecoming.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Spider-ManNoWayHome.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Spider-ManNoWayHome.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\StarTrek.jpeg",
+      "PackagePath": "staticwebassets\\img\\Movies\\StarTrek.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\StrangerThings.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\StrangerThings.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Supergirl.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Supergirl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\TheDarkKnight.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\TheDarkKnight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\TheEdge.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\TheEdge.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\TheEmojiMovie.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\TheEmojiMovie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\TheEscapeOfTheSeven.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\TheEscapeOfTheSeven.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\TheFalconAndTheWinterSoldier.webp",
+      "PackagePath": "staticwebassets\\img\\Movies\\TheFalconAndTheWinterSoldier.webp"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\TheLastFrontier.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\TheLastFrontier.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\TheLastOfUs.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\TheLastOfUs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\TheMandalorian.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\TheMandalorian.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\ThePenthouse.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\ThePenthouse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\TheRing.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\TheRing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Thor.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Thor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\Venom.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\Venom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\WandaVision.webp",
+      "PackagePath": "staticwebassets\\img\\Movies\\WandaVision.webp"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Movies\\WhiteTiger.jpg",
+      "PackagePath": "staticwebassets\\img\\Movies\\WhiteTiger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\img\\Profile.jpg",
+      "PackagePath": "staticwebassets\\img\\Profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\js\\Home.js",
+      "PackagePath": "staticwebassets\\js\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\js\\Profile.js",
+      "PackagePath": "staticwebassets\\js\\Profile.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\js\\Selector.js",
+      "PackagePath": "staticwebassets\\js\\Selector.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\video\\BlueLock.mp4",
+      "PackagePath": "staticwebassets\\video\\BlueLock.mp4"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\video\\NhaBaNu.mp4",
+      "PackagePath": "staticwebassets\\video\\NhaBaNu.mp4"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\Project\\c-sharp_project\\MovieWeb\\wwwroot\\video\\Nobita'sSkyUtopia.mp4",
+      "PackagePath": "staticwebassets\\video\\Nobita'sSkyUtopia.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MovieWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MovieWeb.props",
+      "PackagePath": "build\\MovieWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MovieWeb.props",
+      "PackagePath": "buildMultiTargeting\\MovieWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MovieWeb.props",
+      "PackagePath": "buildTransitive\\MovieWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

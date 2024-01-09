@@ -1,0 +1,173 @@
+﻿@model ViewModel
+@{
+    ViewData["Title"] = "Thông tin";
+}
+@section styles {
+    <link href="@Url.Content("~/css/Detail.css")" rel="stylesheet" />
+}
+<div class="container mov-sec">
+    <div class="left-section">
+        <!-- Thông tin phim -->
+        <section class="mov-sec row">
+            <!-- Hình ảnh và xem phim -->
+            <div class="movie-img col-12 col-md-4">
+                <img src="@Model.Movie.imgSrc">
+                <div class="row mx-0 d-flex justify-content-around">
+                    <button type="button" class="btn btn-primary col-12 col-md-6 px-0 my-1" data-bs-toggle="modal" data-bs-target="#Trailer">Trailer</button>
+                    <button type="button" class="btn btn-danger col-12 col-md-6 px-0 my-1">
+                        @{
+                            var url = "1";
+                            if (Model.Movie.Type == "Phim lẻ")
+                            {
+                                url = "Full";
+                            }
+                            if (@Model.Episodes.Any(i => i.Name == url)){
+                                <a href="@Url.Action("Index","Watch",new{MovieID=@Model.Movie.ID, Episode=url})">
+                                    Xem phim
+                                </a>
+                            }
+                            else
+                            {
+                                <a href="#">
+                                    Xem phim
+                                </a>
+                            }
+
+                        }
+                    </button>
+                </div>
+            </div>
+
+            <!-- Trailer -->
+            <div class="modal fade" id="Trailer" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body px-1 py-1">
+                            @foreach (var ep in Model.Episodes)
+                            {
+                                if(ep.Name == "Trailer")
+                                {
+                                    <iframe src="@ep.videoSrc" allowfullscreen></iframe>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Thông tin phim -->
+            <div class="info-section col-12 col-md-8">
+                <header>
+                    <h1 class="title">@Model.Movie.Name</h1>
+                </header>
+                <main>
+                    <div style="border: 1px solid ; padding: 10px; margin-bottom: 20px; background-color: #222222; height: 250px; overflow-y: auto;">
+                        <div class="movie-info-wrapper">
+                            <div class="movie-info-title">Loại phim:</div>
+                            <div class="movie-info">@Model.Movie.Type</div>
+                        </div>
+                        <div class="movie-info-wrapper">
+                            <div class="movie-info-title">Trạng thái:</div>
+                            <div class="movie-info">@Model.Movie.Status</div>
+                        </div>
+                        <div class="movie-info-wrapper">
+                            <div class="movie-info-title">Thể Loại:</div>
+                            <div class="movie-info">
+                                @foreach(var genre in Model._Genres){
+                                    <a asp-controller="Theme" asp-action="Genre" asp-route-id="@genre.ID">@genre.Name</a>
+                                }
+                            </div>
+                        </div>
+                        <div class="movie-info-wrapper">
+                            <div class="movie-info-title">Quốc gia:</div>
+                            <div class="movie-info">@Model.Movie.Nation.Name</div>
+                        </div>
+                        <div class="movie-info-wrapper">
+                            <div class="movie-info-title">Năm:</div>
+                            <div class="movie-info">@Model.Movie.realeasedYear</div>
+                        </div>
+                        <div class="movie-info-wrapper">
+                            <div class="movie-info-title">Thời lượng:</div>
+                            <div class="movie-info">@Model.Movie.Duration</div>
+                        </div>
+                        <div class="movie-info-wrapper">
+                            <div class="movie-info-title">Lượt xem:</div>
+                            <div class="movie-info">@Model.Movie.numOfViews</div>
+                        </div>
+                        <div class="movie-info-wrapper">
+                            <div class="movie-info-title">Ngôn ngữ:</div>
+                            <div class="movie-info">
+                                Vietsub
+                            </div>
+                        </div>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <div class="movie-info-wrapper">
+                                <div class="movie-info-title">Yêu thích:</div>
+                                <form>
+                                    <button id="follow" value="@Model.Movie.ID" asp-controller="Detail" asp-action="Follow" class="btn btn-danger" name="Id"><i class='bx bxs-heart'></i>Yêu thích</button>
+                                </form>
+                            </div>
+                        }
+                    </div>
+                </main>
+
+                <footer>
+                    <div class="rating-section">
+                        <h4 class="title">Rating</h4>
+                        <div class="movie-rating" id="rating">
+                            <div class="stars">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="rating-info">
+                                <span class="score">0</span>/10
+                                <span class="votes">(0 votes)</span>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+
+            <!-- Nội dung phim -->
+            <div class="below-movie-box">
+                <span class="title">Mô tả</span><br>
+                <span class="movie-description">@Model.Movie.Description</span>
+            </div>
+
+
+            <!-- Phim đề cử -->
+            <div class="below-movie-box">
+                <span class="title">PHIM LIÊN QUAN</span><br>
+                <div class="slider-series-film">
+                    <div class="movWrapper">
+                        <div class="swiper mySwiper movie-container">
+                            <div class="swiper-wrapper">
+                                @foreach (var movie in Model.Trending)
+                                {
+                                    <div class="swiper-slide list-movie">
+                                        <div class="episode">@movie.Status</div>
+                                        <a asp-controller="Detail" asp-action="Index" asp-route-id="@movie.ID">
+                                            <img src="@movie.imgSrc" alt="">
+                                        </a>
+                                    </div>
+                                }
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

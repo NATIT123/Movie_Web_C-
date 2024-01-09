@@ -1,0 +1,21 @@
+﻿@model ViewModel
+<!-- SLIDER -->
+<div class="slider-series-film">
+    <div class="movWrapper">
+        <div class="tag">PHIM THỊNH HÀNH</div>
+        <div class="swiper mySwiper movie-container">
+            <div class="swiper-wrapper">
+                @foreach (var movie in Model.Trending)
+                {
+                    <div class="swiper-slide list-movie">`
+                        <a asp-controller="Detail" asp-action="Index" asp-route-id="@movie.ID">
+                            <img src="@movie.imgSrc" alt="">
+                        </a>
+                    </div>
+                }
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</div>

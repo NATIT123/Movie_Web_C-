@@ -1,0 +1,47 @@
+﻿@model ViewModel
+@{
+    ViewData["Title"] = "Đăng nhập";
+}
+@section styles {
+    <link href="@Url.Content("~/css/Authenticate.css")" rel="stylesheet" />
+}
+
+<div class="container d-flex align-items-center justify-content-center">
+    <form asp-controller="Authentication" asp-action="Login" method="post" class="formCtn">
+        <h1>Đăng nhập</h1>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group pad">
+            <label asp-for="Login.Email" class="control-label"></label>
+            <input asp-for="Login.Email" class="form-control" name="Email" />
+            <span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+        </div>
+        <div class="form-group pad">
+            <label asp-for="Login.Password" class="control-label"></label>
+            <input asp-for="Login.Password" class="form-control" name="Password" />
+            <span class="text-danger field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+        </div>
+        <div class="noAcc pad"><input type="checkbox" onclick="showPass()">Hiện mật khẩu</div>
+        <div class="noAcc pad">Quên mật khẩu?<a asp-controller="Authentication" asp-action="ForgotPassword" class="fgpassLink">Nhấn để lấy lại mật khẩu</a></div>
+        <div class="noAcc pad">Không có tài khoản?<a asp-controller="Authentication" asp-action="Signup" class="regisLink">Nhấn để đăng ký</a></div>
+        @if (TempData["Message"] != null)
+        {
+            <span class="text-danger">@TempData["Message"]</span>
+        }
+        <div class="form-group pad">
+            <input type="submit" id="submit" value="Đăng nhập" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+<script>
+    function showPass() {
+        var x = document.getElementById("Login_Password");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+</script>
+

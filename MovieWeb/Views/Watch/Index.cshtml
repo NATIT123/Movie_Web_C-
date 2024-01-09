@@ -1,0 +1,51 @@
+﻿@model ViewModel
+@{
+    ViewData["Title"] = "Xem phim";
+}
+@section styles {
+    <link href="@Url.Content("~/css/Watch.css")" rel="stylesheet" />
+}
+<div class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div style="text-align: center">
+                    <h1 class="Title">Xem phim: @Model.Movie.Name</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div style="text-align: center" id="play">
+                    <video style="text-align: center" width="960" height="720" controls><source src="@Model.Episode.videoSrc" type="video/mp4"></video>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5 class="epList">Danh sách tập phim:</h5>
+                <div class="pagination">
+                    @foreach (var ep in Model.Episodes)
+                    {
+                        if (ep.Name != "Trailer")
+                        {
+                            if(ep.Name == Model.Episode.Name)
+                            {
+                                <a class="active" href="@Url.Action("Index","Watch",new{MovieID=@Model.Movie.ID, Episode=@ep.Name})">@ep.Name</a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Index","Watch",new{MovieID=@Model.Movie.ID, Episode=@ep.Name})">@ep.Name</a>
+                            }
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDER -->
+        @{
+            Html.RenderPartial("Slider");
+        }
+    </div>
+</div>

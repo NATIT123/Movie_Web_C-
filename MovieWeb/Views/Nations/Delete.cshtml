@@ -1,0 +1,33 @@
+﻿@model ViewModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>XÓA</h1>
+
+<h3>Bạn có chắc chắn muốn xóa thông tin quốc gia phim này?</h3>
+<div>
+    <h4>Nation</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nation.ID)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nation.ID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nation.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nation.Name)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Nation.ID" name="ID"/>
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index">Quay về danh sách</a>
+    </form>
+</div>

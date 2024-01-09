@@ -1,0 +1,42 @@
+﻿@model ViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>DANH SÁCH THÔNG TIN QUỐC GIA PHIM</h1>
+
+<p>
+    <a asp-action="Create">THÊM</a>
+</p>
+<table id="example" class="display cell-border order-column" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nation.ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nation.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Nations)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Chỉnh sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">Chi tiết</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

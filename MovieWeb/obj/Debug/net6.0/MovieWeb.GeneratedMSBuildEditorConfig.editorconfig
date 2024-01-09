@@ -1,0 +1,216 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MovieWeb
+build_property.RootNamespace = MovieWeb
+build_property.ProjectDir = C:\Users\TU\Documents\Zalo Received Files\52100113_52100138\52100113_52100138\MovieWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\TU\Documents\Zalo Received Files\52100113_52100138\52100113_52100138\MovieWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Authentication/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Authentication/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cU2lnbnVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Detail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Episodes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Episodes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Episodes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Episodes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Episodes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Follow/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sbG93XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Genres/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Genres/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Genres/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Genres/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Genres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/MovieGenres/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVHZW5yZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/MovieGenres/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVHZW5yZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/MovieGenres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVHZW5yZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Movies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Movies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Movies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Movies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Movies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Nations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Nations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0aW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Nations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0aW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Nations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0aW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Nations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Profile/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Shared/HeroSection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlcm9TZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Shared/Slider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNsaWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Theme/Genre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVcR2VucmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Theme/Movie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVcTW92aWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Theme/Nation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVcTmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Theme/RecentlyUpdated.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVcUmVjZW50bHlVcGRhdGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Theme/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Theme/Series.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVcU2VyaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Watch/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TU/Documents/Zalo Received Files/52100113_52100138/52100113_52100138/MovieWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-oysrqv6mpk
